@@ -6,7 +6,7 @@ Given an image, render it in the style of a given artist’s picture.
 
 
 ## Example:
-Considered Katrina Kaif’s image as the content image to be rendered in the style of the art Frida Kahlo and Mona Lisa, one at a time.
+Considered Katrina Kaif’s image as the content image to be rendered in the style of the art (1) Frida Kahlo and (2) Mona Lisa.
 
 
 ## Core algorithm:
