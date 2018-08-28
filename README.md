@@ -11,7 +11,7 @@ Considered Katrina Kaif’s image as the content image to be rendered in the sty
 
 ## Core algorithm:
 The loss function comprised of 3 main components:
-- ‘content loss’: the L2 distance between the given image and the resultant image,
+- ‘content loss’: the L2 distance between representations of the given image and the resultant image,
 - ‘style loss’: the sum of the L2 distances between the gram matrices of the 	representations of the style and resultant images from different layers of 	VGG16 network pretrained on ImageNet,
 - ‘total variation loss’: imposes local spatial continuity between the pixels of 	the resultant image.
 
